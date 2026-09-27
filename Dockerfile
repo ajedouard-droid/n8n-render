@@ -8,3 +8,4 @@ EXPOSE 5678
 
 CMD ["n8n"]
 
+
