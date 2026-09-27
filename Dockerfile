@@ -1,9 +1,10 @@
-FROM docker.n8n.io/n8nio/n8n
+FROM n8nio/n8n:latest
 
 ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=5678
-ENV N8N_PROTOCOL=http
+ENV N8N_PROTOCOL=https
 
 EXPOSE 5678
 
 CMD ["n8n"]
+
